@@ -1,0 +1,53 @@
+#container {
+    max-width: 150px;
+    height: 250px;
+    background-color: black;
+}
+
+#result {
+    padding-top: 25px;
+}
+
+#showNum {
+    color: white;
+    font-size: 26px;
+    text-align: right;
+    margin: 0 14px 3px 0;
+}
+
+#buttons {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #333333;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+button:active {
+    background-color: gray;
+}
+
+.orange {
+    background-color: #ff9f0c;
+}
+
+.gray {
+    background-color: #a5a5a5;
+    color: black;
+}
+
+#zero {
+    width: 65px;
+    border-radius: 20px;
+}
+
+#fifthRow, #fourthRow, #thirdRow, #secondRow {
+    margin-bottom: 4px;
+}
