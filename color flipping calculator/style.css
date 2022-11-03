@@ -1,0 +1,36 @@
+#outer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#inner_container {
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#target {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    padding-bottom: 10px;
+}
+
+.buttons button {
+    background-color: white;
+    border: solid grey 0.1px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 3px 5px 3px 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #999999;
+}
