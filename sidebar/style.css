@@ -3,6 +3,11 @@ body, html {
     padding: 0;
 }
 
+#body {
+    z-index: 1;
+    position: absolute;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -16,6 +21,14 @@ body, html {
     text-decoration: none;
     color: rgb(47, 47, 47);
     font-weight: 600;
+}
+
+#sidebar {
+    width: 300px;
+    background-color: red;
+    height: 300px;
+    z-index: 2;
+    position: relative;
 }
 
 #section1 {
@@ -32,5 +45,5 @@ body, html {
 }
 
 #section2 {
-    padding: 20px 40px;
+    padding: 30px 50px;
 }
