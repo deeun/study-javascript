@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #d0c6bf;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px;
+  font-family: "Libre Baskerville", serif;
+}
+
+header h1 {
+  font-size: 40px;
+  color: #452b2c;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  margin-right: 15px;
+}
+
+figure img {
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.description {
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  background-color: #f7f5f2;
+}
+
+.description__contents {
+  padding: 30px 30px;
+}
+
+.tabs__bar {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: white;
+}
+
+.tabs__tab {
+  padding: 20px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.tabs__tab:hover {
+  background-color: #f9f8f6;
+}
+
+.tabs__tab__selected {
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px 20px;
+  text-align: center;
+  width: 100%;
+  background-color: #f7f5f2;
+}
+
+.description__contents p {
+  padding: 0;
+  margin: 0;
+}

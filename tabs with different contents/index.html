@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Forrest Gump</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Forrest Gump</h1>
+        <p>
+          Life is like a box of chocolates...you never know what you're gonna
+          get.
+        </p>
+      </header>
+      <main class="main">
+        <figure>
+          <img
+            src="https://i.pinimg.com/564x/b7/ab/b5/b7abb5ec7459e0d3991d942468d9208a.jpg"
+            height="400"
+          />
+        </figure>
+        <section class="description">
+          <nav class="tabs__bar">
+            <a
+              class="tabs__tab__selected"
+              id="tab-summaries"
+              onclick="showSummary()"
+              >Summaries</a
+            >
+            <a class="tabs__tab" id="tab-topcast" onclick="showCastInfo()"
+              >Top Cast</a
+            >
+            <a class="tabs__tab" id="tab-trailer" onclick="showTrailer()"
+              >Trailer</a
+            >
+          </nav>
+          <div class="description__contents">
+            <div id="summaries">
+              <p>
+                Forrest Gump is a simple man with a low I.Q. but good
+                intentions. He is running through childhood with his best and
+                only friend Jenny. His 'mama' teaches him the ways of life and
+                leaves him to choose his destiny. Forrest joins the army for
+                service in Vietnam, finding new friends called Dan and Bubba, he
+                wins medals, creates a famous shrimp fishing fleet, inspires
+                people to jog, starts a ping-pong craze, creates the smiley,
+                writes bumper stickers and songs, donates to people and meets
+                the president several times. However, this is all irrelevant to
+                Forrest who can only think of his childhood sweetheart Jenny
+                Curran, who has messed up her life. Although in the end all he
+                wants to prove is that anyone can love anyone.
+              </p>
+            </div>
+            <div id="top-cast" style="display: none">
+              <p>cast info</p>
+            </div>
+            <div id="trailer" style="display: none">
+              <iframe
+                width="540"
+                height="280"
+                src="https://www.youtube.com/embed/bLvqoHBptjg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
