@@ -1,7 +1,14 @@
-const menubar = document.querySelector("#menubar");
+const button = document.getElementById("hamburger");
+const sidebar = document.getElementById("sidebar");
+const sidebar_contents = document.getElementById("sidebar_contents");
+const openBar = () => {
+  sidebar.style.width = "250px";
+  sidebar_contents.style.display = "flex";
+};
 
-const test = () => {
-    console.log("dddd")
-}
+button.addEventListener("click", openBar);
 
-menubar.addEventListener("click", test)
+const closeBar = () => {
+  sidebar.style.width = "0";
+  sidebar_contents.style.display = "none";
+};

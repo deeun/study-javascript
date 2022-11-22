@@ -9,29 +9,30 @@
     <title>Pretty Side Bar</title>
   </head>
   <body>
-    <aside>
-        <div class="sidebar-header">
-            sss
-        </div>
-    </aside>
-    <div id="body">
+    <div id="sidebar" style="width: 0;">
+      <div id="sidebar_contents" style="display: none;">
+        <button id="btn" onclick="closeBar()">Close X</button>
+        <a href="#home" class="sidebar-menu">Home</a>
+        <a href="#news" class="sidebar-menu">News</a>
+        <a href="#contact" class="sidebar-menu">Contact</a>
+        <a href="#about" class="sidebar-menu">About</a>
+      </div>
+    </div>
+    <div id="main">
       <nav class="navbar">
         <a class="active" href="#home">Home</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
-        <img id="menubar" src="../sidebar//images/menu.png" width="30px" />
+        <img id="hamburger" src="../sidebar//images/menu.png" width="30px" />
       </nav>
       <div id="section1">
         <img src="https://picsum.photos/200/200" />
         <div id="section1-text">
           <h2>My Own Page</h2>
-          <p>
-            This page is designed to test making of a side bar. <br />
-            Designing website is much more difficult than I expected it to be.
-            <br />
-            Thousand thumbs up to web page designers !
-          </p>
+          <p>This sidebar is hidden by default, (style="display:none")</p>
+          <p>You must click on the "hamburger" icon (top left) to open it.</p>
+          <p>The sidebar will hide a part of the page content.</p>
         </div>
       </div>
       <div id="section2">
